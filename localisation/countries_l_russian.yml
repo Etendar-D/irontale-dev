@@ -1,0 +1,17 @@
+﻿l_russian:
+ UWK_democracy:0 "Западно-Подземское Королевство"
+ UWK_fascism:0 "Западный Легион"
+ UWK_communism:0 "Западно-Подземская СР"
+ UWK_neutrality:0 "Государство Западного Подземелья"
+ UWK_communism_ADJ:0 "Зап.-Подземск."
+ UWK_democracy_ADJ:0 "Зап.-Подземск."
+ UWK_neutrality_ADJ:0 "Зап.-Подземск."
+ UWK_fascism_ADJ:0 "Зап.-Легионерск."
+ UWK:0 "Западное Подземелье"
+ UWK_communism_DEF:0 "Западно-Подземская СР"
+ UWK_democracy_DEF:0 "Западно-Подземское Королевство"
+ UWK_fascism_DEF:0 "Западный Легион"
+ UWK_neutrality_DEF:0 "Государство Западного Подземелья"
+ UWK_ADJ:0 "Зап.-Подземск."
+ UWK_DEF:0 "Западное Подземелье"
+ 
