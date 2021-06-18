@@ -1,0 +1,71 @@
+focus_tree = {
+	id = western_kingdom_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UWK
+		}
+	}
+	
+	default = no
+	
+	focus = {
+		id = UWK_hard_times
+		icon = 
+		x = 10
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+			}
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 120 
+			}
+		}
+		
+	focus = {
+		id = UWK_support_her_majesty
+		icon = 
+		x = -5
+		y = 1
+		relative_position_id = { focus = UWK_hard_times }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+			}
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = 0.075
+			add_war_support = 0.025
+			add_ideas = UWK_supp_hm_idea
+			}
+		}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
