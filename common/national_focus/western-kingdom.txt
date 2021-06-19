@@ -14,7 +14,7 @@ focus_tree = {
 	
 	focus = {
 		id = UWK_hard_times
-		icon = 
+		icon = tt
 		x = 10
 		y = 0
 		cost = 10
@@ -31,10 +31,13 @@ focus_tree = {
 		
 	focus = {
 		id = UWK_support_her_majesty
-		icon = 
+		icon = tt
 		x = -5
 		y = 1
-		relative_position_id = { focus = UWK_hard_times }
+		relative_position_id = UWK_hard_times
+		prerequisite = {
+			focus = UWK_hard_times 
+			}
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -45,10 +48,37 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.075
 			add_war_support = 0.025
-			add_ideas = UWK_supp_hm_idea
+			add_ideas = UWK_supp_hm_idea1
 			}
 		}
+		
+	focus = {
+		id = UWK_aid_QAU
+		icon = tt
+		x = -2
+		y = 1
+		relative_position_id = UWK_support_her_majesty
+		prerequisite = {
+			focus = UWK_support_her_majesty
+			}
+		cost = 10
+		ai_will_do = {
+			factor = 10
+			}
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = UWK_supp_hm_idea2
+				remove_idea = UWK_supp_hm_idea1
+			}
+		}
+	} 
 	
+	
+	
+}
 		
 		
 		
