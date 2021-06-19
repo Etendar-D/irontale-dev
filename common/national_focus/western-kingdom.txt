@@ -42,7 +42,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 			}
-		
 		available_if_capitulated = no
 		
 		completion_reward = {
@@ -65,7 +64,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 			}
-		
 		available_if_capitulated = no
 		
 		completion_reward = {
@@ -75,6 +73,29 @@ focus_tree = {
 			}
 		}
 	} 
+	
+	focus = {
+		id = UWK_ministry_of_info
+		icon = tt
+		x = 2
+		y = 1
+		relative_position_id = UWK_support_her_majesty 
+		prerequisite = {
+			focus = UWK_support_her_majesty
+			}
+		cost = 10
+		ai_will_do = {	
+			factor = 10
+			}
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = UWK_infomin1
+		}
+	}
+		
+	
 	
 	
 	
